@@ -1,0 +1,16 @@
+/* Navbar Logo Animation */
+@keyframes logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .navbar-logo-react {
+    animation: logo-spin 20s linear infinite;
+  }
+}
+
+/* Navbar Search Wrapper */
+.navbar-search-wrapper {
+  min-width: 200px;
+}

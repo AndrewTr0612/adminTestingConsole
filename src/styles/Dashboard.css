@@ -1,0 +1,23 @@
+/* Dashboard Main Container */
+.dashboard-main {
+  flex: 1;
+  background-color: #f8f9fa;
+  padding: 1.5rem;
+  overflow-y: auto;
+}
+
+/* Dashboard Card Wrapper */
+.dashboard-card {
+  border-radius: 0.5rem;
+}
+
+/* Dashboard Greeting Section */
+.dashboard-greeting-title {
+  font-size: 1.75rem;
+  color: #212529;
+}
+
+.dashboard-greeting-subtitle {
+  font-size: 1rem;
+  color: #6c757d;
+}

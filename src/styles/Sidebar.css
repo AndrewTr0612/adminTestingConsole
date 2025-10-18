@@ -1,0 +1,26 @@
+.sidebar {
+  background-color: #1f1f1f;
+  color: #fff;
+  min-width: 200px;
+  height: 100%;
+  padding: 1rem;
+}
+
+.sidebar-title {
+  font-size: 0.875rem;
+  letter-spacing: 0.05em;
+}
+
+.sidebar-menu-item {
+  color: #ddd;
+  font-weight: 500;
+  margin-bottom: 0.5rem;
+  border-radius: 0.5rem;
+  transition: all 0.2s ease;
+}
+
+.sidebar-menu-item:hover,
+.sidebar-menu-item:focus {
+  background-color: #343a40;
+  color: #fff;
+}
