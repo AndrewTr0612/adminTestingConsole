@@ -1,6 +1,21 @@
 /* App Root Container */
 #root {
   height: 100vh;
+  width: 100%;
   display: flex;
   flex-direction: column;
+  margin: 0;
+  padding: 0;
+}
+
+/* App Layout Container */
+.app-layout {
+  display: flex;
+  flex: 1;
+  overflow: hidden;
+  width: 100%;
+}
+
+.app-layout > * {
+  height: 100%;
 }
